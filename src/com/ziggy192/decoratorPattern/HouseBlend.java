@@ -1,6 +1,10 @@
 package com.ziggy192.decoratorPattern;
 
-public class HouseBlend extends Beverage {
+public class HouseBlend extends SizeBeverage {
+	public HouseBlend(Size size) {
+		super(size);
+	}
+
 	@Override
 	public double calculateCost() {
 		return 0.89;

@@ -12,6 +12,19 @@ public abstract class CondimentDecorator extends Beverage {
 	}
 
 	public CondimentDecorator(Beverage beverage) {
+		super();
 		this.beverage = beverage;
+	}
+
+	public abstract String description();
+
+	@Override
+	public Size getSize() {
+		return beverage.getSize();
+	}
+
+	@Override
+	public void setSize(Size size) {
+		beverage.setSize(size);
 	}
 }
