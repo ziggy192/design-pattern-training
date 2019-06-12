@@ -1,4 +1,9 @@
 package com.ziggy192.factoryPattern.pizzaModels.nyPizzas;
 
-public class NYStyleCheesePizza {
+import com.ziggy192.factoryPattern.pizzaModels.Pizza;
+
+public class NYStyleCheesePizza extends Pizza {
+    public NYStyleCheesePizza() {
+        name = "NY Style Cheese Pizza";
+    }
 }

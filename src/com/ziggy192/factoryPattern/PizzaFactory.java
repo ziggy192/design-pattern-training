@@ -1,4 +1,8 @@
 package com.ziggy192.factoryPattern;
 
-public interface PizzaFactory {
+import com.ziggy192.factoryPattern.pizzaModels.Pizza;
+
+public interface PizzaFactory
+{
+    public Pizza createPizza(String type);
 }

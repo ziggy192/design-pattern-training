@@ -1,4 +1,5 @@
 package com.ziggy192.factoryPattern.pizzaModels;
 
-public class PepperoniPizza {
+public class PepperoniPizza extends Pizza {
+
 }

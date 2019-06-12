@@ -1,6 +1,8 @@
-package com.ziggy192.factoryPattern.simpleFactoryPattern;
+package com.ziggy192.factoryPattern.pizzaModels;
 
-public class Pizza {
+public abstract class Pizza {
+    protected String name;
+
     public void prepare() {
         System.out.println("preparing pizza");
     }
@@ -18,4 +20,7 @@ public class Pizza {
         System.out.println("Boxing pizza");
     }
 
+    public String getName() {
+        return name;
+    }
 }
