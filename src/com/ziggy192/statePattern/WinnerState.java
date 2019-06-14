@@ -41,6 +41,5 @@ public class WinnerState extends State {
     void refill(int value) {
         System.out.println("Refilled");
 
-
     }
 }
